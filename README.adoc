@@ -1,0 +1,9 @@
+= Maintainable Bootstrap 4 Customizations
+
+Project Setup: https://coursetro.com/posts/code/130/Learn-Bootstrap-4-Final-in-2018-with-our-Free-Crash-Course
+
+```
+npm install
+gulp
+cp src/css/bootstrap-custom.css [your-site]/css
+```
