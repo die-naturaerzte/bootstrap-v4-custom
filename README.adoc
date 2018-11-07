@@ -1,9 +1,21 @@
-= Maintainable Bootstrap 4 Customizations
+= Bootstrap 4 Customizations
 
-Project Setup: https://coursetro.com/posts/code/130/Learn-Bootstrap-4-Final-in-2018-with-our-Free-Crash-Course
+Edit `scss/bootstrap-v4-custom.scss` as described in the link:https://getbootstrap.com/docs/4.1/getting-started/theming/[official theming docs].
+
+== CSS Generation
 
 ```
 npm install
-gulp
-cp src/css/bootstrap-custom.css [your-site]/css
+npm run test
+cp dist/bootstrap-v4-custom-vX.Y.Z.min.css [your-site]/css
 ```
+
+== Acknowledgements
+
+Project Setup: https://stackoverflow.com/a/47251052/57448
+
+== License
+
+Licensed under link:LICENSE[MIT License].
+
+&copy; Rahel Lüthy 2018

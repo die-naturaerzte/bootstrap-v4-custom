@@ -1,0 +1,10 @@
+@import "../node_modules/bootstrap/scss/functions";
+@import "../node_modules/bootstrap/scss/variables";
+
+$body-bg: lavender;
+
+$theme-colors: (
+  "primary": #c71585
+);
+
+@import "../node_modules/bootstrap/scss/bootstrap";

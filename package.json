@@ -1,22 +1,23 @@
 {
   "name": "bootstrap-v4-custom",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "version": "0.1.0",
+  "description": "Bootstrap 4 Customizations",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/netzwerg/bootstrap-v4-custom.git"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "devDependencies": {
-    "browser-sync": "^2.23.6",
-    "gulp": "^3.9.1",
-    "gulp-sass": "^3.1.0"
+  "author": "Rahel Lüthy",
+  "license": "MIT",
+  "homepage": "https://github.com/netzwerg/bootstrap-v4-custom#readme",
+  "scripts": {
+    "build": "scss-powertools --production scss/bootstrap-v4-custom.scss dist/bootstrap-v4-custom-v$npm_package_version.min.css",
+    "test": "npm run build && serve dist"
   },
   "dependencies": {
-    "bootstrap": "^4.0.0",
-    "jquery": "^3.3.1",
-    "popper.js": "^1.12.9"
+    "bootstrap": "^4.1.3"
+  },
+  "devDependencies": {
+    "scss-powertools": "^1.0.1",
+    "serve": "^10.0.2"
   }
 }
